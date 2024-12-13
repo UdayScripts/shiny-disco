@@ -1,0 +1,78 @@
+[
+    {
+        "header": "",
+        "items": [
+            {
+                "text": "Dashboard",
+                "icon": "bx bx-home",
+                "available": true,
+                "link": "/"
+            },
+            {
+                "text": "Payment",
+                "icon": "bx bx-wallet",
+                "available": true,
+                "link": "/payment",
+                "submenu": [
+                    {
+                        "text": "Send invoice",
+                        "available": true,
+                        "link": "/payment/send"
+                    },
+                    {
+                        "text": "View invoice",
+                        "available": true,
+                        "link": "/payment/view"
+                    }
+                ]
+            },
+            {
+                "text": "User",
+                "icon": "bx bx-user-circle",
+                "available": true,
+                "link": "/user",
+                "submenu": [
+                    {
+                        "text": "View User",
+                        "available": true,
+                        "link": "/user/view"
+                    },
+                    {
+                        "text": "Broadcast",
+                        "available": true,
+                        "link": "/user/broadcast"
+                    }
+                ]
+            },
+            {
+                "text": "Settings",
+                "icon": "bx bxs-cog",
+                "available": true,
+                "link": "",
+                "submenu": [
+                    {
+                        "text": "Website Settings",
+                        "available": true,
+                        "link": "/setting/web"
+                    },
+                    {
+                        "text": "Bot Settings",
+                        "available": true,
+                        "link": "/setting/bot"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "header": "",
+        "items": [
+            {
+                "text": "Logout",
+                "icon": "bx bx-power-off",
+                "available": true,
+                "link": "/logout"
+            }
+        ]
+    }
+]
